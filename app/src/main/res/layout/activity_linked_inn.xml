@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EEEE"
+    tools:context="com.aftiani.linkedln.LinkedInn">
+
+    <ImageView
+        android:id="@+id/im_logo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/linkedin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/im_logo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="221dp"
+        android:layout_marginEnd="851dp"
+        android:layout_marginRight="851dp"
+        android:gravity="center"
+        android:text="Perluas Karier Anda™"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="Bergabung Sekarang"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:background="#008BC5" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="LOGIN"
+        android:textColor="#008BC5"
+        android:stateListAnimator="@null"
+        android:background="#E6EEEE"/>
+
+</RelativeLayout>
